@@ -4,12 +4,12 @@
     padding: 0;
 }
 body{
-    background-color: rgb(91, 69, 102);
-    color: white;
+    background-color: #132E35;
+  color: #69818D;
 }
 
 nav{
-    background-color:rgb(62, 43, 71);
+    background-color:#0D1F23;;
     color: rgb(226, 221, 221);
     height: 65px;
     font-size: 27px;
@@ -32,15 +32,15 @@ nav ul{
 
 .container{
     display: grid;
-    grid-template-rows: repeat(3, 10vw);
-    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 9vw);
+    grid-template-columns: repeat(3, 9vw);
     font-family: 'Roboto', sans-serif;
-    position: relative;
+    position: absolute;
 }
 
 .box{
     border: 1px solid white;
-    font-size: 8vw;
+    font-size: 7vw;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -48,16 +48,21 @@ nav ul{
 }
 
 .box:hover{
-    background-color: rgb(133, 100, 150);
+    background-color: #2D4A53;
 }
 
 .info {
     font-size: 22px;
+    top:11%;
+    left:1%;
+    position: absolute;
+
 }
 
 .gameInfo{
     padding: 0 34px;
     font-family: 'Times New Roman', Times, serif, cursive;
+ 
 }
 
 .gameInfo h1{
@@ -68,34 +73,29 @@ nav ul{
 .imgbox img{
     width: 0;
     transition: width 1s ease-in-out;
+
+ 
 }
 
-.br-0{
-    border-right: 0;
-}
-
-.bl-0{
-    border-left: 0;
-}
-
-.bt-0{
-    border-top: 0;
-}
-
-.bb-0{
-    border-bottom: 0;
-}
 
 #reset {
     margin: 0 23px;
     padding: 10px 28px;
-    background: rgb(20, 8, 26);
+    background: #5A636A;
     border-radius: 90px;
     cursor: pointer;
    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bolder;
     color:white;
+    top:11%;
+    left:85%;
+    position: absolute;
+ 
+   
+    
+
+  
   
 }
 
@@ -105,8 +105,9 @@ nav ul{
     height: 3px;
     width: 0;
     position: absolute;
-    background-color: rgb(57, 27, 72);
+    background-color: #AFB3B7;
     transition: width 1s ease-in-out;
+   
 }
 
 @media screen and (max-width: 950px)
